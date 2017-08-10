@@ -1,14 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
-get_ipython().system(u'pip freeze --user > requirements.txt')
-get_ipython().system(u'while read p; do pip install --user "${p}" --ignore-installed ; done <./requirements.txt')
-
-
-# In[27]:
-
 from io import StringIO
 import requests
 import json
@@ -219,8 +208,4 @@ def main():
 if __name__=='__main__':
     main()
 
-
-# In[ ]:
-
-
-
+ 
